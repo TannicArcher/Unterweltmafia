@@ -1,0 +1,9 @@
+<?php
+	if(! defined('BASEPATH') ){ exit('Unable to view file.'); }
+?>
+<center><img src="<?=$config['game_url']?>/promo/468x60.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /><br><b>468x60</b><br>
+<textarea cols="100" onclick="this.focus();this.select()" readonly="readonly"><a href="<?=$config['game_url']?>/reg/<?=User::Data('id')?>" target="_blank"><img src="<?=$config['game_url']?>/promo/468x60.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /></a></textarea></center><br><br>
+<center><img src="<?=$config['game_url']?>/promo/250x250.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /><br><b>250x250</b><br>
+<textarea cols="100" onclick="this.focus();this.select()" readonly="readonly"><a href="<?=$config['game_url']?>/reg/<?=User::Data('id')?>" target="_blank"><img src="<?=$config['game_url']?>/promo/250x250.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /></a></textarea></center><br><br>
+<center><img src="<?=$config['game_url']?>/promo/180x180.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /><br><b>180x180</b><br>
+<textarea cols="100" onclick="this.focus();this.select()" readonly="readonly"><a href="<?=$config['game_url']?>/reg/<?=User::Data('id')?>" target="_blank"><img src="<?=$config['game_url']?>/promo/180x180.png" border="0" alt="<?=$admin_config['game_name']['value']?>" title="<?=$admin_config['game_name']['value']?>" /></a></textarea></center><br><br>

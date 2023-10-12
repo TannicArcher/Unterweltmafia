@@ -1,0 +1,28 @@
+
+
+Unterweltmafia installation Kurzinfos
+----------------------------------------
+
+- Datenbankdaten in system/database.php eintragen
+
+- Script vom Order "Script für Server" auf einen Webserver hochladen
+
+- Datenbank von "Datenbank Daten" in die Datenbank inportieren
+
+- Benutzer für einen Admin im Spiel anlegen (Spieler registrieren)
+
+- Der Benutzer, der Admin-Rechte haben soll in der Datenbank 
+unter [users] -> userlevel auf 4 setzen (anstelle von 1)
+und unter [players] -> level auf 4 setzen (anstelle von 1)
+
+- Hat ein Benutzer Adminrechte, erscheint bei ihm im Spiel "Admin Panel".
+Dort drauf klicken und dann im Adminpanel weitere Konfigurationen vornehmen.
+(Domain, Pfad, Name des Spiels, Email, etc.)
+
+- im gesammten Script schauen, ob noch Verweise zu "unterweltmafia.de" vorhanden sind,
+diese dann entsprechend abändern.
+
+- betrieben wurde das Spiel bisher ausschließlich unter PHP 5.4 und einer MSQL Datenbank.
+
+
+ 
